@@ -1,0 +1,53 @@
+.fish-entry,
+.fish-entry * {
+  box-sizing: border-box;
+}
+.fish-entry {
+  width: 256px;
+  height: 278px;
+  position: relative;
+}
+.image-background {
+  background: #e2caaa;
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #3b2d2f;
+  border-width: 3px;
+  width: 99.61%;
+  height: 92.09%;
+  position: absolute;
+  right: 0.39%;
+  left: 0%;
+  bottom: 7.91%;
+  top: 0%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.fish-image {
+  width: 100%;
+  height: 256px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  top: 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.fish-name {
+  color: #ffc859;
+  text-align: center;
+  font-family: "Carlito-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 84.17%;
+  height: 15.83%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-text-stroke: 4px #3b2d2f;
+}
