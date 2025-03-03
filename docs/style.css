@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Changa+One:ital@0;1&display=swap')
+
 .property-1-default,
 .property-1-default * {
   box-sizing: border-box;
@@ -62,6 +64,7 @@
   overflow: hidden;
 }
 .zea-s-cafe {
+  
   color: #efe4d5;
   text-align: center;
   font-family: "ChangaOne-Regular", sans-serif;
@@ -180,4 +183,40 @@
   align-self: stretch;
   flex: 1;
   position: relative;
+}
+
+.carlito-regular {
+  font-family: "Carlito", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.carlito-bold {
+  font-family: "Carlito", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.carlito-regular-italic {
+  font-family: "Carlito", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.carlito-bold-italic {
+  font-family: "Carlito", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.changa-one-regular {
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.changa-one-regular-italic {
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
